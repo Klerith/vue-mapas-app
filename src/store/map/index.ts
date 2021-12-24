@@ -1,13 +1,13 @@
 import { Module } from 'vuex';
 import { StateInterface } from '../index';
 
-import state, { PlacesState } from './state';
+import state, { MapState } from './state';
 import actions from './actions';
 import getters from './getters';
 import mutations from './mutations';
 
 
-const placesModule: Module<PlacesState, StateInterface> = {
+const mapModule: Module<MapState, StateInterface> = {
     namespaced: true,
     actions,
     getters,
@@ -16,4 +16,4 @@ const placesModule: Module<PlacesState, StateInterface> = {
 }
 
 
-export default placesModule;
+export default mapModule;

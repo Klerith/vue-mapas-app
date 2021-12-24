@@ -8,6 +8,7 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "axios": "^0.24.0",
     "mapbox-gl": "^2.6.1",
     "vue": "^3.0.0",
     "vue-router": "^4.0.0-0",
