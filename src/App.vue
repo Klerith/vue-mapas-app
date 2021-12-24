@@ -1,9 +1,14 @@
 <template>
-  <div id="nav">
+  <!-- <div id="nav">
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>
-  </div>
+  </div> -->
   <router-view/>
+
+  <img 
+    src="./assets/logo.png" 
+    alt="Vue Logo"
+    class="logo">
 </template>
 
 <style>
@@ -26,5 +31,12 @@
 
 #nav a.router-link-exact-active {
   color: #42b983;
+}
+
+.logo {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 100px;
 }
 </style>
